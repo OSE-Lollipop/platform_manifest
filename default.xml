@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="aosp"
+  <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+
+  <remote  name="gh"
+           fetch="git://github.com/" />
 
   <remote  name="github"
            fetch="git://github.com/"
-           review="https://gerrit.slimroms.net/"/>
+           review="https://gerrit.slimroms.net/" />
 
   <default revision="refs/tags/android-5.0.1_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="8" />
 
   <project path="build" name="SlimRoms/android_build" remote="github" revision="lp5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -543,5 +546,13 @@
   <!-- CyanogenMod ffmpeg -->
   <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="lp5.0-caf" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="lp5.0-caf" />
+  
+  <!-- G2 Stuff -->
+  <project path="device/lge/vs980" name="OSE-Lollipop/device_lge_vs980" remote="gh" revision="lp5.0" />
+  <project path="device/lge/g2-common" name="OSE-Lollipop/device_lge_g2-common" remote="gh" revision="lp5.0" />
+  <project path="kernel/lge/msm8974" name="lg-devs/android_kernel_lge_msm8974" remote="gh" revision="cm-12.0" />
+  <project path="vendor/lge" name="lg-devs/proprietary_vendor_lge" remote="gh" revision="cm-12.0" />
+  
+  <project path="device/qcom/common" name="SlimRoms/device_qcom_common" remote="gh" revision="lp5.0" />
 
 </manifest>
