@@ -305,7 +305,6 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -487,6 +486,7 @@
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" revision="lp5.0-caf" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="slim" revision="lp5.0-caf" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="slim" revision="lp5.0" />
+  <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="slim" revision="lp5.0" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="slim" revision="lp5.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="slim" revision="lp5.0" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="slim" revision="lp5.0-caf" />
