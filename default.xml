@@ -441,7 +441,6 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" />
@@ -573,7 +572,7 @@
   <project path="vendor/slim" name="vendor_slim" remote="ose" revision="ose" />
 
   <!-- SlimRoms -->
-  
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slim" revision="lp5.0-caf" groups="pdk" />
 
   
   <!-- UberUtils -->
