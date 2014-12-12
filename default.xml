@@ -534,7 +534,6 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" />
   <!-- <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" /> -->
   <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" />
@@ -542,8 +541,6 @@
   <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" />
   <project path="packages/wallpapers/Basic" name="android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="android_packages_wallpapers_Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="android_packages_wallpapers_HoloSpiral" />
@@ -573,7 +570,9 @@
 
   <!-- SlimRoms -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slim" revision="lp5.0-caf" groups="pdk" />
-
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="slim" revision="lp5.0-caf" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="slim" revision="lp5.0-caf" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slim" revision="lp5.0-caf" />
   
   <!-- UberUtils -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="gh" revision="lp" />
