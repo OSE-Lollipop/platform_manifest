@@ -37,7 +37,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <<project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose" />
+  <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose" />
 
   <project path="abi/cpp" name="android_abi_cpp" groups="pdk" />
   <project path="art" name="android_art" groups="pdk" />
