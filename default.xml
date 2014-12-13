@@ -327,7 +327,6 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" />
   <project path="external/bash" name="android_external_bash" />
-  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="android_external_bouncycastle" />
   <project path="external/bson" name="android_external_bson" />
   <project path="external/busybox" name="android_external_busybox" />
@@ -425,7 +424,6 @@
   <project path="frameworks/multidex" name="android_frameworks_multidex" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="android_frameworks_opt_bitmap" />
-  <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="android_frameworks_opt_carddav" />
   <project path="frameworks/opt/chips" name="android_frameworks_opt_chips" groups="pdk-cw-fs" />
@@ -544,6 +542,8 @@
   <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" />
 
   <!-- SlimRoms -->
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slim" revision="lp5.0-caf" groups="pdk" />
+  <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" remote="slim" revision="lp5.0-caf" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slim" revision="lp5.0-caf" groups="pdk" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" revision="lp5.0-caf" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="slim" revision="lp5.0-caf" />
