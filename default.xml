@@ -582,11 +582,4 @@
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.10" name="UBERUTILS/arm-eabi-4.10" remote="github" revision="master" />
-
-  <!-- G2 Stuff -->
-  <project path="device/lge/vs980" name="OSE-Lollipop/device_lge_vs980" remote="github" revision="lp5.0" />
-  <project path="device/lge/g2-common" name="OSE-Lollipop/android_device_lge_g2-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/lge/msm8974" name="RenderBroken/msm8974_G2_render_kernel" remote="github" revision="cm-12.0" />
-  <project path="vendor/lge" name="lg-devs/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-12.0" />
 </manifest>
