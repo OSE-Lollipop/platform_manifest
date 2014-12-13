@@ -7,7 +7,7 @@
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
 
-  <remote  name="gh"
+  <remote  name="github"
            fetch="git://github.com/" />
 
   <remote  name="linaro"
@@ -575,18 +575,18 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="slim" revision="lp5.0-caf" />
     
   <!-- UberUtils -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="gh" revision="lp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERUTILS/arm-linux-androideabi-4.9" remote="gh" revision="lp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="UBERUTILS/arm-linux-androideabi-4.10" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.7" name="UBERUTILS/arm-eabi-4.7" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="gh" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.10" name="UBERUTILS/arm-eabi-4.10" remote="gh" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="UBERUTILS/arm-linux-androideabi-4.8" remote="github" revision="lp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERUTILS/arm-linux-androideabi-4.9" remote="github" revision="lp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="UBERUTILS/arm-linux-androideabi-4.10" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.7" name="UBERUTILS/arm-eabi-4.7" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.8" name="UBERUTILS/arm-eabi-4.8" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.9" name="UBERUTILS/arm-eabi-4.9" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/sm-arm-eabi-4.10" name="UBERUTILS/arm-eabi-4.10" remote="github" revision="master" />
 
   <!-- G2 Stuff -->
-  <project path="device/lge/vs980" name="OSE-Lollipop/device_lge_vs980" remote="gh" revision="lp5.0" />
-  <project path="device/lge/g2-common" name="OSE-Lollipop/android_device_lge_g2-common" remote="gh" revision="cm-12.0" />
-  <project path="kernel/lge/msm8974" name="RenderBroken/msm8974_G2_render_kernel" remote="gh" revision="cm-12.0" />
-  <project path="vendor/lge" name="lg-devs/proprietary_vendor_lge" remote="gh" revision="cm-12.0" />
+  <project path="device/lge/vs980" name="OSE-Lollipop/device_lge_vs980" remote="github" revision="lp5.0" />
+  <project path="device/lge/g2-common" name="OSE-Lollipop/android_device_lge_g2-common" remote="github" revision="cm-12.0" />
+  <project path="kernel/lge/msm8974" name="RenderBroken/msm8974_G2_render_kernel" remote="github" revision="cm-12.0" />
+  <project path="vendor/lge" name="lg-devs/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-12.0" />
 </manifest>
