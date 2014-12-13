@@ -541,7 +541,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose" />
-  <project path="vendor/slim" name="vendor_slim" remote="ose" revision="ose" />
+  <project path="vendor/ose" name="vendor_ose" remote="ose" revision="ose" />
 
   <!-- SlimRoms -->
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="slim" revision="lp5.0-caf" groups="pdk" />
