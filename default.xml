@@ -28,10 +28,9 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/cm-12.0"
-           remote="cm"
-           sync-c="true"
-           sync-j="8" />
+  <default revision="refs/tags/android-5.0.1_r1"
+           remote="aosp"
+           sync-j="4" />
 
   <!-- AOSP -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
