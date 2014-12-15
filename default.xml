@@ -514,7 +514,6 @@
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="slim" revision="lp5.0-caf" />
   <project path="packages/apps/SlimCenter" name="packages_apps_SlimCenter" remote="slim" revision="lp5.0" />
   <project path="packages/apps/SlimFileManager" name="packages_apps_SlimFileManager" remote="slim" revision="lp5.0" />
-  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.0" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="slim" revision="lp5.0-caf" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" revision="lp5.0" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="slim" revision="lp5.0" />
@@ -538,6 +537,7 @@
   </project>
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ose" revision="ose" />
+  <project path="packages/apps/OSELauncher" name="packages_apps_OSELauncher" remote="ose" revision="ose" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ose" revision="ose" />
   <project path="platform_manifest" name="platform_manifest" remote="ose" revision="ose" />
   <project path="system/core" name="system_core" groups="pdk" remote="ose" revision="ose" />
