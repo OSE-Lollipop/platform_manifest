@@ -512,7 +512,6 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="slim" revision="lp5.0-caf" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="slim" revision="lp5.0" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="slim" revision="lp5.0-caf" />
-  <project path="packages/apps/SlimCenter" name="packages_apps_SlimCenter" remote="slim" revision="lp5.0" />
   <project path="packages/apps/SlimFileManager" name="packages_apps_SlimFileManager" remote="slim" revision="lp5.0" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="slim" revision="lp5.0-caf" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" remote="slim" revision="lp5.0" />
