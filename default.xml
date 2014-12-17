@@ -443,6 +443,7 @@
   <project path="development" name="android_development" remote="slim" revision="lp5.0" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" revision="lp5.0" />
   <project path="external/aac" name="android_external_aac" remote="slim" revision="lp5.0" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="slim" revision="lp5.0" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="slim" revision="lp5.0-caf" />
   <project path="external/busybox" name="android_external_busybox" remote="slim" revision="lp5.0" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="slim" revision="lp5.0" />
@@ -492,6 +493,7 @@
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" remote="slim" revision="lp5.0" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" remote="slim" revision="lp5.0" />
   <project path="libcore" name="android_libcore" remote="slim" revision="lp5.0" />
+  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="slim" revision="lp5.0" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="slim" revision="lp5.0-caf" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="slim" revision="lp5.0-caf" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="slim" revision="lp5.0" />
