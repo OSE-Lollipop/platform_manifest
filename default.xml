@@ -28,7 +28,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/android-5.0.1_r1"
+  <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -457,7 +457,7 @@
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="slim" revision="lp5.0-caf" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="slim" revision="lp5.0-caf" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="slim" revision="lp5.0" />
-  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="slim" branch="lp5.0-caf" />
+  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="slim" revision="lp5.0-caf" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="slim" revision="lp5.0-caf" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="slim" revision="lp5.0" />
   <project path="hardware/cm" name="hardware_cm" remote="slim" revision="lp5.0" />
