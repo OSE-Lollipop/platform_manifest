@@ -269,7 +269,6 @@
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" />
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
@@ -451,6 +450,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="slim" revision="lp5.0-caf" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="slim" revision="lp5.0-caf" />
   <project path="frameworks/av" name="frameworks_av" remote="slim" revision="lp5.0-caf" />
+  <project path="frameworks/ex" name="frameworks_ex" remote="slim" revision="lp5.0-caf" />
   <project path="frameworks/native" name="frameworks_native" remote="slim" revision="lp5.0-caf" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="slim" revision="lp5.0-caf" />
   <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" remote="slim" revision="lp5.0" />
