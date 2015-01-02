@@ -16,6 +16,9 @@
   <remote  name="ls"
            fetch="git://github.com/LiquidSmooth/" />
 
+  <remote  name="omni"
+           fetch="https://github.com/omnirom" />
+
   <remote  name="ose"
            fetch="git://github.com/OSE-Lollipop/" />
 
@@ -422,7 +425,6 @@
   <!-- SlimRoms -->
   <project path="art" name="android_art" remote="slim" revision="lp5.0"  />
   <project path="bionic" name="android_bionic" remote="slim" revision="lp5.0" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="lp5.0" />
   <project path="development" name="android_development" remote="slim" revision="lp5.0" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" revision="lp5.0" />
   <project path="external/aac" name="android_external_aac" remote="slim" revision="lp5.0" />
@@ -514,6 +516,9 @@
   <project path="system/netd" name="android_system_netd" remote="slim" revision="lp5.0-caf" />
   <project path="system/qcom" name="android_system_qcom" remote="slim" revision="lp5.0-caf" />
   <project path="system/vold" name="android_system_vold" remote="slim" revision="lp5.0-caf" />
+
+  <!-- OmniROM -->
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="omni" revision="android-5.0" />
 
   <!-- OSE -->
   <project path="build" name="build" remote="ose" revision="ose" groups="pdk,tradefed" >
