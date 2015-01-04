@@ -422,7 +422,6 @@
   <!-- SlimRoms -->
   <project path="art" name="android_art" remote="slim" revision="lp5.0"  />
   <project path="bionic" name="android_bionic" remote="slim" revision="lp5.0" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="lp5.0" />
   <project path="development" name="android_development" remote="slim" revision="lp5.0" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" revision="lp5.0" />
   <project path="external/aac" name="android_external_aac" remote="slim" revision="lp5.0" />
@@ -520,6 +519,7 @@
   <project path="build" name="build" remote="ose" revision="ose" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bootable/recovery" name="bootable_recovery" remote="ose" revision="ose"/>
   <project path="frameworks/base" name="frameworks_base" remote="ose" revision="ose" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="ose" revision="ose" />
   <project path="packages/apps/OSELauncher" name="packages_apps_OSELauncher" remote="ose" revision="ose" />
