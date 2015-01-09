@@ -410,18 +410,18 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- CyanogenMod -->
+  <project path="development" name="android_development" remote="cm" revision="cm-12.0" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-12.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-12.0" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-12.0" />
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-12.0" />
+  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="cm" revision="cm-12.0" />
 
   <!-- SlimRoms -->
   <project path="art" name="android_art" remote="slim" revision="lp5.0"  />
   <project path="bionic" name="android_bionic" remote="slim" revision="lp5.0" />
   <project path="bootable/recovery" name="bootable_recovery" remote="slim" revision="lp5.0" />
-  <project path="development" name="android_development" remote="slim" revision="lp5.0" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="slim" revision="lp5.0" />
   <project path="external/aac" name="android_external_aac" remote="slim" revision="lp5.0" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="slim" revision="lp5.0" />
